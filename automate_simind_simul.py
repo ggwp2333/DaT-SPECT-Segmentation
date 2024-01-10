@@ -12,8 +12,8 @@ def execute(cmd,db_flag):
 pat_ind_1 = int(sys.argv[1])
 pat_ind_2 = int(sys.argv[2])
 
-dict_dir = '/data02/user-storage/ziping/brain_SPECT_segm/data/dict'
-export_dir = '/data02/user-storage/ziping/brain_SPECT_segm/data/simul'
+dict_dir = '' # Specify input directory here
+export_dir = '' # Specify output directory here
 
 for pat_ind in (pat_ind_1,pat_ind_2):
 

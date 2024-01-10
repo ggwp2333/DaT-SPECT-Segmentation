@@ -14,7 +14,7 @@ clincal_counts_lvl = 2*10e5
 
 for pat_ind in range(pat_ind_1, pat_ind_2+1):
 
-    dir_n = '/data02/user-storage/ziping/brain_SPECT_segm/data/simul/' + str(pat_ind)
+    dir_n = '' + str(pat_ind)  # Specify input directory
     export_dir_n = dir_n + '/dmip_recon/output'
     
     if os.path.isdir(export_dir_n):

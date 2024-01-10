@@ -134,8 +134,8 @@ num_train = 480
 X_train = np.zeros((num_train,128,128,128,1))
 Y_train = np.zeros((num_train,128,128,128,7))
 
-data_folder = '/data02/user-storage/ziping/brain_SPECT_segm/data/simul/'
-label_folder = '/data02/user-storage/ziping/brain_SPECT_segm/data/ground_truth/cont/'
+data_folder = '' # Specify image path here
+label_folder = '' # Specify label path here
 
 for i in range(num_train):
     
